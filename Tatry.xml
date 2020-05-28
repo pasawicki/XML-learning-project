@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Tatry>
+	<obiekt typ="szczyt">
+		<nazwa>Kościelec</nazwa>
+		<wysokosc>2155</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Wysokie</pasmo>
+			<przynaleznosc>Polska</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>****</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="szczyt">
+		<nazwa>Baranie Rogi</nazwa>
+		<wysokosc>2526</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Wysokie</pasmo>
+			<przynaleznosc>Słowacja</przynaleznosc>
+		</polozenie>
+		<szlak>brak</szlak>
+		<trudnosc_trasy>****</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="hala">
+		<nazwa>Miętusi Przysłop</nazwa>
+		<wysokosc>1189</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Zachodnie</pasmo>
+			<przynaleznosc>Polska</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>*</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="szczyt">
+		<nazwa>Rysy</nazwa>
+		<wysokosc>2501</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Wysokie</pasmo>
+			<przynaleznosc>Słowacja</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>**/***</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="szczyt">
+		<nazwa>Rysy (wierzchołek NW)</nazwa>
+		<wysokosc>2499</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Wysokie</pasmo>
+			<przynaleznosc>Polska / Słowacja</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>***/****</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="staw">
+		<nazwa>Morskie Oko</nazwa>
+		<wysokosc>1395</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Wysokie</pasmo>
+			<przynaleznosc>Polska</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>brak</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="przełęcz">
+		<nazwa>Zawrat</nazwa>
+		<wysokosc>2159</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Wysokie</pasmo>
+			<przynaleznosc>Polska</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>*/**</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="szczyt">
+		<nazwa>Starorobociański Wierch</nazwa>
+		<wysokosc>2176</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Zachodnie</pasmo>
+			<przynaleznosc>Polska / Słowacja</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>**</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="szczyt">
+		<nazwa>Giewont</nazwa>
+		<wysokosc>1894</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Zachodnie</pasmo>
+			<przynaleznosc>Polska</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>**/***</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="przełęcz">
+		<nazwa>Polski Grzebień</nazwa>
+		<wysokosc>2200</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Wysokie</pasmo>
+			<przynaleznosc>Słowacja</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>**</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="szczyt">
+		<nazwa>Cubryna</nazwa>
+		<wysokosc>2376</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Wysokie</pasmo>
+			<przynaleznosc>Polska / Słowacja</przynaleznosc>
+		</polozenie>
+		<szlak>brak</szlak>
+		<trudnosc_trasy>*****</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="szczyt">
+		<nazwa>Wołowiec</nazwa>
+		<wysokosc>2064</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Zachodnie</pasmo>
+			<przynaleznosc>Polska / Słowacja</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>**</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="szczyt">
+		<nazwa>Płaczliwa Skała</nazwa>
+		<wysokosc>2142</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Bielskie</pasmo>
+			<przynaleznosc>Słowacja</przynaleznosc>
+		</polozenie>
+		<szlak>brak</szlak>
+		<trudnosc_trasy>**</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="przełęcz">
+		<nazwa>Liliowe</nazwa>
+		<wysokosc>1950</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Zachodnie / Tatry Wysokie</pasmo>
+			<przynaleznosc>Polska / Słowacja</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>*</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="staw">
+		<nazwa>Czarny Staw Gąsienicowy</nazwa>
+		<wysokosc>1620</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Wysokie</pasmo>
+			<przynaleznosc>Polska</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>*</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="szczyt">
+		<nazwa>Gerlach</nazwa>
+		<wysokosc>2655</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Wysokie</pasmo>
+			<przynaleznosc>Słowacja</przynaleznosc>
+		</polozenie>
+		<szlak>brak</szlak>
+		<trudnosc_trasy>*****</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="szczyt">
+		<nazwa>Ornak</nazwa>
+		<wysokosc>1853</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Zachodnie</pasmo>
+			<przynaleznosc>Polska</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>**</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="szczyt">
+		<nazwa>Kasprowy Wierch</nazwa>
+		<wysokosc>1987</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Zachodnie</pasmo>
+			<przynaleznosc>Polska / Słowacja</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>*</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="hala">
+		<nazwa>Rusinowa Polana</nazwa>
+		<wysokosc>1210</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Wysokie</pasmo>
+			<przynaleznosc>Polska</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>*</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="przełęcz">
+		<nazwa>Kozia Przełęcz</nazwa>
+		<wysokosc>2137</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Wysokie</pasmo>
+			<przynaleznosc>Polska</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>***/****</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="szczyt">
+		<nazwa>Łopata</nazwa>
+		<wysokosc>1958</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Zachodnie</pasmo>
+			<przynaleznosc>Polska / Słowacja</przynaleznosc>
+		</polozenie>
+		<szlak>trawers</szlak>
+		<trudnosc_trasy>***</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="szczyt">
+		<nazwa>Świnica</nazwa>
+		<wysokosc>2301</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Wysokie</pasmo>
+			<przynaleznosc>Polska / Słowacja</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>***/****</trudnosc_trasy>
+	</obiekt>
+	<obiekt typ="szczyt">
+		<nazwa>Małołączniak</nazwa>
+		<wysokosc>2105</wysokosc>
+		<polozenie>
+			<pasmo>Tatry Zachodnie</pasmo>
+			<przynaleznosc>Polska / Słowacja</przynaleznosc>
+		</polozenie>
+		<szlak>tak</szlak>
+		<trudnosc_trasy>**</trudnosc_trasy>
+	</obiekt>
+</Tatry>
