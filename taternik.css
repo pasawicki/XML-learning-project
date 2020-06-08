@@ -1,0 +1,23 @@
+Tatry {
+color: white;
+background-color: green;
+width: 100%;
+}
+
+nazwa, wysokosc, pasmo, przynaleznosc, szlak, trudnosc_trasy {
+display: block;
+}
+
+szlak {
+font-size: 17px;
+font-weight: italic;
+}
+
+nazwa {
+text-align: center;
+font-size: 27px;
+}
+
+trudnosc_trasy {
+color: red;
+}
