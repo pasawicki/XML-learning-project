@@ -1,0 +1,15 @@
+<!DOCTYPE Tatry [
+
+<!ELEMENT Tatry (obiekt+)>
+<!ELEMENT obiekt (nazwa,wysokosc,polozenie,szlak,trudnosc_trasy)>
+<!ELEMENT polozenie (pasmo,przynaleznosc)>
+<!ELEMENT nazwa (#PCDATA)>
+<!ELEMENT wysokosc (#PCDATA)>
+<!ELEMENT pasmo (#PCDATA)>
+<!ELEMENT przynaleznosc (#PCDATA)>
+<!ELEMENT szlak (#PCDATA)>
+<!ELEMENT trudnosc_trasy (#PCDATA)>
+
+<!ATTLIST obiekt typ CDATA #REQUIRED>
+
+]>
