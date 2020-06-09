@@ -2,15 +2,85 @@
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
 <!-- definition of simple elements -->
-<xsd:element name="nazwa" type="xsd:string"/>
-<xsd:element name="wysokosc" type="xsd:integer"/>
-<xsd:element name="pasmo" type="xsd:string"/>
-<xsd:element name="przynaleznosc" type="xsd:string/>
-<xsd:element name="szlak" type="xsd:string/>
-<xsd:element name="trudnosc_trasy" type="xsd:string/>
+
+<xsd:element name="nazwa">
+  <xsd:simpleType>
+    <xsd:restriction base="xsd:string">
+      <xsd:minLength value="3"/> <!-- Roh w północno-zachodniej grani Grzesia --!>
+      <xsd:maxLength value="50"/> <!-- bez przesady, dłuższych nazw nie będzie --!>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:element>
+
+<xsd:element name="wysokosc">
+  <xsd:simpleType>
+    <xsd:restriction base="xsd:integer">
+      <xsd:minInclusive value="700"/> <!-- jak coś leży niżej, to już na pewno nie w Tatrach --!>
+      <xsd:maxInclusive value="2663"/> <!-- największa czasem podawana wysokość Gerlacha --!>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:element>
+
+<xsd:element name="pasmo">
+  <xsd:simpleType>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Tatry Wysokie"/>
+      <xsd:enumeration value="Tatry Zachodnie"/>
+      <xsd:enumeration value="Tatry Bielskie"/>
+      <xsd:enumeration value="Tatry Zachodnie / Tatry Wysokie"/>
+      <xsd:enumeration value="Tatry Wysokie / Tatry Bielskie"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:element>
+
+<xsd:element name="przynaleznosc">
+  <xsd:simpleType>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="Polska"/>
+      <xsd:enumeration value="Słowacja"/>
+      <xsd:enumeration value="Polska / Słowacja"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:element>
+
+<xsd:element name="szlak">
+  <xsd:simpleType>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="tak"/>
+      <xsd:enumeration value="brak"/>
+      <xsd:enumeration value="trawers"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:element>
+
+<xsd:element name="trudnosc_trasy">
+  <xsd:simpleType>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="brak"/>
+      <xsd:enumeration value="*"/>
+      <xsd:enumeration value="*/**"/>
+      <xsd:enumeration value="**"/>
+      <xsd:enumeration value="**/***"/>
+      <xsd:enumeration value="***"/>
+      <xsd:enumeration value="***/****"/>
+      <xsd:enumeration value="****"/>
+      <xsd:enumeration value="****/*****"/>
+      <xsd:enumeration value="*****"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:element>
 
 <!-- definition of attributes -->
-<xsd:attribute name="typ" type="xsd:string"/>
+<xsd:attribute name="typ">
+  <xsd:simpleType>
+    <xsd:restriction base="xsd:string">
+      <xsd:enumeration value="szczyt"/>
+      <xsd:enumeration value="przełęcz"/>
+      <xsd:enumeration value="staw"/>
+      <xsd:enumeration value="hala"/>
+    </xsd:restriction>
+  </xsd:simpleType>
+</xsd:element>
 
 <!-- definition of complex elements -->
 
