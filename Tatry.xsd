@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<!-- definition of simple elements -->
+<xsd:element name="nazwa" type="xsd:string"/>
+<xsd:element name="wysokosc" type="xsd:integer"/>
+<xsd:element name="pasmo" type="xsd:string"/>
+<xsd:element name="przynaleznosc" type="xsd:string/>
+<xsd:element name="szlak" type="xsd:string/>
+<xsd:element name="trudnosc_trasy" type="xsd:string/>
+
+<!-- definition of attributes -->
+<xsd:attribute name="typ" type="xsd:string"/>
+
+<!-- definition of complex elements -->
+
+<xsd:element name="polozenie">
+  <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element ref="pasmo"/>
+      <xsd:element ref="przynaleznosc"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="obiekt">
+  <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element ref="nazwa"/>
+      <xsd:element ref="wysokosc"/>
+      <xsd:element ref="polozenie"/>
+      <xsd:element ref="szlak"/>
+      <xsd:element ref="trudnosc_trasy"/>
+      <xsd:attribute ref="typ" use="required"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:element>
+
+<xsd:element name="Tatry">
+  <xsd:complexType>
+    <xsd:sequence>
+      <xsd:element ref="obiekt" maxOccurs="unbounded"/>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:element>
+
+</xsd:schema>
