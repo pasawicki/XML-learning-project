@@ -1,0 +1,106 @@
+<script>
+function redder() {
+	var obiekty = document.getElementsByTagName("p");
+	var i;
+	for (i = 0; i < obiekty.length; i++) {
+  		obiekty[i].style.color = "red";
+	}
+}
+
+function bluer() {
+	var obiekty = document.getElementsByTagName("p");
+	var i;
+	for (i = 0; i < obiekty.length; i++) {
+  		obiekty[i].style.color = "blue";
+	}
+}
+
+function blacker() {
+	var obiekty = document.getElementsByTagName("p");
+	var i;
+	for (i = 0; i < obiekty.length; i++) {
+  		obiekty[i].style.color = "black";
+	}
+}
+
+function dwaipol() {
+	var x = document.getElementsByTagName("p");
+	var y = x[3];
+	y.innerHTML = "Nazwa obiektu: Rysy (wierzchołek NW);<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 2500;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Polska / Słowacja;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style=&#34;color:Purple;&#34;>***/****</b>.<br/>";
+}
+
+function niedwaipol() {
+	var x = document.getElementsByTagName("p");
+	var y = x[3];
+	y.innerHTML = "Nazwa obiektu: Rysy (wierzchołek NW);<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 2499;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Polska / Słowacja;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style=&#34;color:Purple;&#34;>***/****</b>.<br/>";
+}
+
+function niespodzianka() {
+	var obiekt = document.createElement("p");
+	obiekt.innerHTML = "Nazwa obiektu: Rohacz Ostry;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 2088;<br/>Przynależność geograficzna: Tatry Zachodnie;<br/>Przynależność państwowa: Słowacja;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style=&#34;color:Purple;&#34;>****/*****</b>.<br/>";
+	var x = document.getElementsByTagName("body");
+	var y = x[0];
+	y.appendChild(obiekt);
+}
+</script>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<button onclick="redder()">Zaczerwień to wszystko!</button>
+<button onclick="bluer()">Zaniebieszcz to wszystko!</button>
+<button onclick="blacker()">Przywróć pierwotną czerń!</button>
+<button onclick="dwaipol()">Marzę o polskim dwuipółtysięczniku!</button>
+<button onclick="niedwaipol()">Już przestałem marzyć!</button>
+<button onclick="niespodzianka()">Odsłoń obiekt-niespodziankę!</button>
+
+            <p>Nazwa obiektu: Gerlach;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 2655;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Słowacja;<br/>Obecność szlaku: brak;<br/>Trudność dotarcia: <b style="color:Purple;">*****</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Baranie Rogi;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 2526;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Słowacja;<br/>Obecność szlaku: brak;<br/>Trudność dotarcia: <b style="color:Purple;">****</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Rysy;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 2501;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Słowacja;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Purple;">**/***</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Rysy (wierzchołek NW);<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 2499;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Polska / Słowacja;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Purple;">***/****</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Cubryna;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 2376;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Polska / Słowacja;<br/>Obecność szlaku: brak;<br/>Trudność dotarcia: <b style="color:Purple;">*****</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Świnica;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 2301;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Polska / Słowacja;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Purple;">***/****</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Polski Grzebień;<br/>Typ obiektu: przełęcz;<br/>Położenie w metrach npm.: 2200;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Słowacja;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Red;">**</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Starorobociański Wierch;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 2176;<br/>Przynależność geograficzna: Tatry Zachodnie;<br/>Przynależność państwowa: Polska / Słowacja;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Purple;">**</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Zawrat;<br/>Typ obiektu: przełęcz;<br/>Położenie w metrach npm.: 2159;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Polska;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Red;">*/**</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Kościelec;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 2155;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Polska;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Purple;">****</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Płaczliwa Skała;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 2142;<br/>Przynależność geograficzna: Tatry Bielskie;<br/>Przynależność państwowa: Słowacja;<br/>Obecność szlaku: brak;<br/>Trudność dotarcia: <b style="color:Purple;">**</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Kozia Przełęcz;<br/>Typ obiektu: przełęcz;<br/>Położenie w metrach npm.: 2137;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Polska;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Red;">***/****</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Małołączniak;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 2105;<br/>Przynależność geograficzna: Tatry Zachodnie;<br/>Przynależność państwowa: Polska / Słowacja;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Purple;">**</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Wołowiec;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 2064;<br/>Przynależność geograficzna: Tatry Zachodnie;<br/>Przynależność państwowa: Polska / Słowacja;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Purple;">**</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Kasprowy Wierch;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 1987;<br/>Przynależność geograficzna: Tatry Zachodnie;<br/>Przynależność państwowa: Polska / Słowacja;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Purple;">*</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Łopata;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 1958;<br/>Przynależność geograficzna: Tatry Zachodnie;<br/>Przynależność państwowa: Polska / Słowacja;<br/>Obecność szlaku: trawers;<br/>Trudność dotarcia: <b style="color:Purple;">***</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Liliowe;<br/>Typ obiektu: przełęcz;<br/>Położenie w metrach npm.: 1950;<br/>Przynależność geograficzna: Tatry Zachodnie / Tatry Wysokie;<br/>Przynależność państwowa: Polska / Słowacja;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Red;">*</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Giewont;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 1894;<br/>Przynależność geograficzna: Tatry Zachodnie;<br/>Przynależność państwowa: Polska;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Purple;">**/***</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Ornak;<br/>Typ obiektu: szczyt;<br/>Położenie w metrach npm.: 1853;<br/>Przynależność geograficzna: Tatry Zachodnie;<br/>Przynależność państwowa: Polska;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Purple;">**</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Czarny Staw Gąsienicowy;<br/>Typ obiektu: staw;<br/>Położenie w metrach npm.: 1620;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Polska;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Blue;">*</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Morskie Oko;<br/>Typ obiektu: staw;<br/>Położenie w metrach npm.: 1395;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Polska;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Blue;">brak</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Rusinowa Polana;<br/>Typ obiektu: hala;<br/>Położenie w metrach npm.: 1210;<br/>Przynależność geograficzna: Tatry Wysokie;<br/>Przynależność państwowa: Polska;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Green;">*</b>.<br/>
+               </p>
+            <p>Nazwa obiektu: Miętusi Przysłop;<br/>Typ obiektu: hala;<br/>Położenie w metrach npm.: 1189;<br/>Przynależność geograficzna: Tatry Zachodnie;<br/>Przynależność państwowa: Polska;<br/>Obecność szlaku: tak;<br/>Trudność dotarcia: <b style="color:Green;">*</b>.<br/>
+               </p>
+
+</body>
+</html>
